@@ -128,6 +128,7 @@ int main() {
         printf("Carta 1 venceu\n");
     } else if (superpoder < superpoder2) {
         printf ("Carta 2 venceu\n");
-
+    }
+    
     return 0;
- }
+}
