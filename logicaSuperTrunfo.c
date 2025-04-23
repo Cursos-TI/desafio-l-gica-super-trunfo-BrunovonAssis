@@ -15,6 +15,24 @@ int main() {
     float pib2;
     int pontosturisticos;
     int pontosturisticos2;
+
+    printf("Supertrunfo\n");
+    printf("Menu principal\n");
+    printf("1 - Jogar\n");
+    printf("2 - Sair\n");
+    printf("Escolha uma opção: \n");
+    int opcao;
+    scanf("%d", &opcao);
+
+    switch (opcao) {
+        case 2:
+            printf("Saindo do jogo...\n");
+            return 0;
+        break;
+        case 1:
+            printf("Iniciando o jogo...\n");
+        break;
+    }
     
     printf("Carta 1\n");
     printf("Digite o nome do estado: \n");
@@ -79,7 +97,7 @@ int main() {
     printf("PIB per capita: %.2f reais\n", pibpercapita2);
     printf("Superpoder: %.2f\n", superpoder2);
     
-    printf("Escolha um atributo: (1-População, 2-Área, 3-PIB, 4-Número de pontos turísticos, 5-Densidade demográfica, 6-PIB per capita, 7-Superpoder)\n");
+    printf("Escolha um atributo: (1-População, 2-Área, 3-PIB, 4-Número de pontos turísticos, 5-Densidade populacional, 6-PIB per capita, 7-Superpoder)\n");
     int atributo;
     scanf("%d", &atributo);
     switch (atributo) {
